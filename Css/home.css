@@ -1,0 +1,644 @@
+
+@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap') ;
+
+body{
+    direction: rtl;
+}
+.info {
+    background-color: rgb(0, 0, 31);
+    display: block;
+    padding-top: 1em;
+}
+.lang , .social , .contact{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle
+
+}
+.lang a {
+    color:rgb(85, 85, 85) ;
+    padding: 0 1em;
+}
+.lang .arabic {
+    color: rgb(209, 22, 22);
+}
+.social ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.social li {
+    padding : 0 1em;
+}
+.social li i {
+    font-size: 2em;
+    color: white;
+}
+ .fa-whatsapp:hover {
+    color: green;
+    cursor: pointer;
+    transition: 1000ms;
+    
+
+}
+.fa-twitter:hover {
+    color: rgb(37, 200, 255);
+    cursor: pointer;
+    transition: 1000ms;
+    
+}
+.fa-facebook-f:hover {
+    color: blue;
+    cursor: pointer;
+    transition: 1000ms;
+    
+}
+.fa-instagram:hover {
+    color: rgb(190, 23, 190);
+    cursor: pointer;
+    transition: 1000ms;
+    
+}
+
+
+ .contact span {
+     color: white;
+     font-size: 1em;
+     font-weight: lighter;
+     padding: 0 5px;
+     
+
+}
+.contact .mail {
+    border-left: 1px solid rgb(85, 85, 85);
+}
+
+/* nav */
+ nav {
+     display: flex;
+     flex-direction: row;
+     padding-top: .5em;
+
+ }
+ nav img {
+     width: 90%;
+     padding-left: 1em;
+     
+
+ }
+ .logo {
+     margin: auto 0;
+ }
+ .nav-link {
+     margin: auto 0 ;
+     padding : 0 .5em ;
+     border-left: 1px solid rgb(80, 79, 79);
+     color: black;
+     font-family: Almarai;
+ }
+ .nav-link:hover {
+     color: red;
+     border-bottom: 5px solid red;
+     border-left: 1px solid red;
+
+ }
+ .active {
+    color: red;
+    border-bottom: 5px solid red;
+    border-left: 1px solid red;
+ }
+ .sign {
+     display: block;
+     margin-right: auto;
+     padding: 0 1em;
+     margin-top: auto ;
+     margin-bottom: auto;
+ }
+ .sign button {
+     margin: 0 1em;
+     font-family: Almarai;
+     text-align: center;
+ }
+ .sign-up-btn{
+     background-color: unset;
+     border: none;
+     padding: .5em 1em;
+     
+ }
+ .sign-up-btn a{
+    color: black;
+    font-style: none;
+    
+}
+ .sign-in-btn {
+    background-color: rgb(3, 3, 36);
+    border: none;
+    color:white;
+    
+    border-radius: 10px;
+    
+    padding: .5em 2em;
+
+ }
+ .sign-in-btn a {
+   
+    font-style: none;
+    color:white;
+
+ }
+ .sign-in-btn:hover {
+    color: rgb(177, 10, 94);
+    cursor: pointer;
+    font-style: none;
+    
+}
+ .sign-in-btn a:hover {
+     color: rgb(177, 10, 94);
+     cursor: pointer;
+     font-style: none;
+     
+ }
+ .sign-up-btn:hover {
+    background-color: rgb(3, 3, 36);
+    color: rgb(177, 10, 94);
+    cursor: pointer;
+    border-radius: 10px;
+
+    
+    
+}
+.sign-up-btn a:hover {
+    color: rgb(177, 10, 94);
+    font-style: none;
+}
+
+ /* header */
+ .header {
+     background-image: url(header.jpg);
+     background-size: cover;
+     
+     
+     background-repeat: no-repeat;
+     
+ }
+
+ .header div {
+     text-align: right;
+     margin: auto 0;
+     
+     padding-right: 2em;
+     padding-bottom: 3em;
+
+ }
+ .header h1 {
+     padding-top: 3em;
+ }
+ .header h1 , .header h4 , .header button {
+     
+     font-family: Almarai;
+     margin-top: 1em;
+ }
+ .header h1 {
+     color: red;
+     font-weight: bolder;
+ }
+
+ /* about */
+ .about {
+     background-image: url(about.png);
+     background-size: cover;
+     background-repeat: no-repeat ;
+     margin: 0;
+     padding: 0;
+ }
+ .about p {
+     
+     text-align: right;
+     
+     font-size: 1.5em;
+     
+     font-family: Almarai;
+     padding: 5em 3em;
+
+     color: black;
+     
+     
+ }
+ 
+ .card-car {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card {
+    border-radius: 25px;
+    background-color: white;
+    margin: 2em 0em 1em 0em;
+    display: flex;
+    justify-content: center;
+
+}
+.card .image {
+    
+    background-image: url(p1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:30vh;
+    
+}
+.like {
+    background: none;
+    border: none;
+    margin: .5em;
+}
+.image i {
+    font-size: 2.5em;
+}
+.fa-gratipay:hover{
+    color: red;
+}
+.red{
+    color: red;
+}
+.active {
+    border: none;
+}
+.text {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    font-family: Almarai;
+    flex-direction: column;
+    padding: 1em;
+    color: black;
+
+}
+.details{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    font-family: Almarai;
+
+}
+.details button {
+    background-color: rgb(2, 2, 32);
+    color: white;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 10px;
+}
+.essays-header {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: right;
+    padding: 0 10em;
+    font-family: Almarai;
+    color: red;
+    padding-top: 1em;
+}
+.cont {
+    margin-right: auto;
+}
+.essays-header a {
+    padding: 0 1em;
+    font-size: 2em;
+
+}
+.donate{
+    display: flex;
+    justify-content: center;
+    font-family: Almarai;
+    padding: 2em 1em;
+    color:red;
+
+}
+.donate h1 {
+    border-bottom: 4px solid red;
+    font-weight: bolder;
+}
+.dontation{
+    background-color: rgba(219, 218, 218, 0.884);
+    padding-bottom: 3em;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.row {
+    width: 100%;
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+.custom-select {
+    font-family: Almarai;
+    
+    
+}
+.search{
+    font-size: 1.5em;
+    background: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 90%;
+}
+.ask{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding:2em ;
+    margin-bottom: 2em;
+   
+    border-radius: 0 50px 50px 0;
+}
+.type {
+    padding: 1em 1em;
+    background-color: rgba(219, 218, 218, 0.884);
+    margin : auto 0;
+    border-radius: 50%;
+}
+.ill{
+    padding: 0 5em ;
+    text-align: right;
+    font-family: Almarai;
+}
+.ask button {
+    margin-right: auto;
+    background-color: rgba(219, 218, 218, 0.884);
+    border-radius: 5px;
+    text-align: center;
+    padding: 1em 2em ;
+    font-family: Almarai;
+    border:none;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+.ask button:hover{
+    background-color: rgb(4, 22, 37);
+    color: white;
+}
+.more-btn{
+    display: flex;
+    justify-content: center;
+}
+.more-btn button {
+    background-color: rgb(4, 22, 37);
+    color: white;
+    padding: 1em 3em ;
+    font-family: Almarai;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+.call {
+    background-image: url(call.jpg);
+    
+    
+}
+.call .row{
+    background: rgba(0, 0, 0, 0.643) ;
+    width: 100%;
+    height: 100%;
+}
+.call .col-12{
+    
+    text-align: center;
+    
+}
+.call h1 , .call h3 {
+    color:white;
+    font-family: Almarai;
+    font-weight: lighter;
+    padding-bottom: 1em;
+}
+.whats {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-bottom: 2em;
+}
+
+.call span {
+    
+    background-color: rgb(20, 173, 59);
+    border-radius: 30px;
+    margin: auto 0;
+    padding: 1em 2.5em;
+    font-weight: bold;
+    font-family: Almarai;
+    color: white;
+    letter-spacing: 1px;
+
+    
+    
+    
+   
+    
+}
+.call img {
+    margin-right: -2em;
+    z-index: 2;
+    width: 5%;
+}
+.app {
+    background-image: url(BG-phone.png);
+    background-size: cover;
+    
+}
+.blod{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    text-align: right;
+}
+.blod h1 , .blod p , .blod h4 {
+    color:black;
+    font-family: Almarai;
+    font-weight: lighter;
+    padding-bottom: 1em;
+}
+.blod p {
+font-size: 1.5em;
+
+}
+.stores{
+    text-align: center;
+}
+.appph img {
+    width: 100%;
+}
+footer{
+    background-color: rgb(10, 3, 41);
+    padding-bottom: 2em;
+
+}
+.blood {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+.blood img {
+    width: 50%;
+    padding-bottom: 2em;
+}
+.blood p{
+    font-family: Almarai;
+    color: white;
+    font-size: 1.5 em;
+    text-align: right;
+}
+.footer-menu {
+    display: flex;
+    justify-content: center;
+}
+.footer-menu ol {
+    list-style: none;
+    text-align: right;
+}
+.footer-menu li {
+    padding-bottom: 1em;
+}
+.footer-menu a {
+    font-family: Almarai;
+    color: white;
+    font-size: 1em;
+
+}
+.footer-menu a:hover {
+    text-decoration: none;
+    color: red;
+
+}
+footer .stores {
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .stores h4 {
+    text-align: right;
+    font-family: Almarai;
+    color: white;
+    padding-bottom: 1em;
+    
+}
+footer .stores img {
+    padding-bottom: 1em;
+}
+.copyrights h4{
+    text-align: center;
+    color: white;
+    font-family: Almarai;
+    
+}
+.copyrights h4 a {
+    color: red;
+    text-decoration: none;
+}
+.row {
+
+    margin:  0;
+    padding: 2em 0;
+}
+.last {
+    background-color: rgb(0, 0, 31);
+    
+    
+}
+.last h6 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+
+}
+.info .row {
+    padding: 0;
+}
+.red1{
+    color: red;
+
+}
+
+@media only screen and (max-width:1000px) {
+    .call img {
+        margin-right: -2em;
+        z-index: 2;
+        width: 7%;
+    }
+    
+}
+
+@media only screen and (max-width:700px) {
+    footer ul {
+        padding:0
+    }
+    .ask {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .ill {
+        padding : 1em ;
+    }
+    .ask button {
+        margin-right: 0;
+    }
+    .essays-header {
+        padding: 1em 1em ;
+    }
+    .essays-header a{
+        padding: 0 .5em;
+    }
+    nav {
+        justify-content: right;
+        flex-direction: column;
+        
+    }
+    nav a {
+        text-align: center;
+    }
+    nav .logo {
+        margin: 0 auto;
+    }
+    .sign {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 1em auto;
+
+    }
+    .info .lang {
+        margin: 1em auto;
+    }
+    .info .social {
+        margin: auto auto;
+    }
+    .type {
+        width: 20%;
+        margin: 0 auto;
+    }
+    footer .stores h4 {
+        text-align: center;
+    }
+    .call img {
+        margin-right: -2em;
+        z-index: 2;
+        width: 10%;
+    }
+}
+@media only screen and (max-width:430px) {
+    .type {
+        width: 25%
+    }
+    .call img {
+        margin-right: -2em;
+        z-index: 2;
+        width: 20%;
+    }
+
+}

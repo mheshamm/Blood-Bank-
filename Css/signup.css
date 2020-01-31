@@ -1,0 +1,17 @@
+.btn {
+    justify-content: center;
+}
+.btns .sign-inn {
+    margin: 0 auto;
+    padding: 1em 0;
+}
+#error{
+    background-color: rgb(255, 181, 181);
+    margin: 10px auto;
+    text-align: right;
+    font-size: 15px;
+    font-family: Almarai;
+    letter-spacing: 1px;
+    font-weight: 700;
+    
+}

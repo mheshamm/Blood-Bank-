@@ -1,0 +1,59 @@
+.essay-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: rgb(4, 4, 48);
+    font-family: Almarai;
+    color:white;
+
+}
+.img img {
+    width: 100%;
+}
+.essay-header h4 {
+    margin: auto 0;
+}
+
+.essay-header button {
+    margin-right: auto;
+    color: white;
+    font-size: 2em;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.essays {
+    margin: 1em auto;
+    background-color: white;
+}
+.essays-header {
+    margin: 0 auto;
+    padding: 0;
+}
+.essays-header h1 {
+    border-bottom: 1px solid red;
+}
+.cont a {
+    padding : 0 5px ;
+    font-size: 20px;
+    margin: auto 0;
+}
+
+.red1 {
+    color: red;
+}
+@media only screen and (max-width:520px) {
+    .essays-header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .cont{
+        margin: 0;
+        text-align: center;
+    }
+    .essay-header {
+        padding: 0;
+    }
+    
+}

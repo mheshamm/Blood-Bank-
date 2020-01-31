@@ -1,0 +1,144 @@
+*{
+    outline: none;
+}
+.contactus {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid rgb(216, 216, 216);
+}
+.callus {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1em;
+    background-color: white;
+    border: 1px solid rgb(216, 216, 216);
+    
+}
+
+.contact-header {
+    display: flex;
+    background-color: rgb(4, 4, 41);
+    justify-content: center;
+    padding: 5px 0;
+   
+
+}
+.contact-header h4 {
+    font-family: Almarai;
+    color : white;
+}
+.img-logo {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+
+}
+.info-us {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: Almarai;
+    padding: 1em;
+    
+}
+.info-us p {
+    margin: 1em 0;
+    font-size: 1.5em;
+    font-weight: bolder;
+
+
+}
+.socialus {
+    display: flex;
+    flex-direction: column;
+    font-family: Almarai;
+    text-align: center;
+    color: red;
+    margin-top: 3em;
+
+}
+.socialus ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+}
+.socialus li {
+    padding: 10px;
+    font-size: 2.5em;
+    
+}
+.fa-google:hover {
+    color: rgb(145, 1, 1);
+}
+.fa-youtube:hover {
+    color: rgb(255, 0, 0);
+}
+.ur-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1em;
+    background-color: white;
+    border: 1px solid rgb(216, 216, 216);
+    
+}
+.send {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em 0;
+    font-family: Almarai;
+    border: none;
+    background-color: rgb(4, 4, 41);
+    color: white;
+    margin-top:45px;
+}
+
+.control {
+    margin:  20px 2em ;
+    background-color: rgb(238, 237, 237);
+    font-family: Almarai sans-serif;
+    border-radius: 5px;
+    padding-right: 10px;
+    
+}
+#error{
+    background-color: rgb(216, 0, 0);
+    color: white;
+    text-align: right;
+    letter-spacing: 1px;
+    margin: 10px 2em ;
+    border-radius: 5px;
+
+}
+textarea{
+    resize: none;
+    height: 150px;
+}
+.red{
+    background-color: red;
+}
+@media only screen and (max-width:700px) {
+    .contactus {
+        flex-direction: column;
+    }
+    .callus , .ur-info {
+        margin : 1em 0;
+    }
+    
+
+}
+@media only screen and (max-width:395px) {
+    .socialus li {
+        padding: 10px;
+        font-size: 1.5em;
+        
+    }
+}
+
